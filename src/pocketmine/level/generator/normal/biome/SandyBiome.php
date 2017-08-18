@@ -30,11 +30,11 @@ abstract class SandyBiome extends NormalBiome{
 
 	public function __construct(){
 		$this->setGroundCover([
-								  BlockFactory::get(Block::SAND, 0),
-								  BlockFactory::get(Block::SAND, 0),
-								  BlockFactory::get(Block::SANDSTONE, 0),
-								  BlockFactory::get(Block::SANDSTONE, 0),
-								  BlockFactory::get(Block::SANDSTONE, 0)
+			BlockFactory::get(Block::SAND, 0),
+			BlockFactory::get(Block::SAND, 0),
+			BlockFactory::get(Block::SANDSTONE, 0),
+			BlockFactory::get(Block::SANDSTONE, 0),
+			BlockFactory::get(Block::SANDSTONE, 0)
 		]);
 	}
 }
